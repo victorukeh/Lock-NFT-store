@@ -1,0 +1,20 @@
+.dashboard{
+    margin-left: 2%;
+}
+
+.header{
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 73vw;
+}
+
+.dashboard__utils{
+    margin-left: 80%;
+}
+
+.dashboard__utils__icon{
+    margin-top: "93%"
+}
+

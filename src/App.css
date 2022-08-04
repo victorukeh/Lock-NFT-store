@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+body > #root > div {
+  height: 100vh;
+}
+.sidebar {
+  flex: 0.25
+}
+
+.main {
+  flex: 0.75
+}
