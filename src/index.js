@@ -6,6 +6,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { MoralisProvider } from "react-moralis";
 import { BrowserRouter, Routes } from "react-router-dom";
+import './polyfill'
 
 // Reduc State Management
 // let store = createStore(countReducer);

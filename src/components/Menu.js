@@ -8,9 +8,15 @@ const Menu = () => {
 	return (
 		<>
 			<div className="menu">
-            <Link to="/" className="menu__link"><MenuItem  icon={<AiFillAliwangwang />} text="Dashboard" /></Link>
-            <Link to="/invoices" className="menu__link"><MenuItem icon={<AiFillShop />} text="Market" tag="PRO" /></Link>
-            <Link to="/invoices" className="menu__link"><MenuItem icon={<BiDollar />} text="Active Bids" number="+3"/></Link>
+				<Link to="/" className="menu__link">
+					<MenuItem icon={<AiFillAliwangwang />} text="Dashboard" />
+				</Link>
+				<Link to="/invoices" className="menu__link">
+					<MenuItem icon={<AiFillShop />} text="Market" tag="PRO" />
+				</Link>
+				<Link to="/invoices" className="menu__link">
+					<MenuItem icon={<BiDollar />} text="Active Bids" number="+3" />
+				</Link>
 			</div>
 		</>
 	);
